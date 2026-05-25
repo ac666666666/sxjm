@@ -1,0 +1,34 @@
+{
+  "优化MIP": {
+    "name": "本文MIP方案",
+    "total_profit_5y": 43706.13,
+    "avg_annual_yield": 4945.01,
+    "stability_ok": true
+  },
+  "全种": {
+    "name": "全部种植(参考上界)",
+    "total_profit_5y": 65706.84,
+    "avg_annual_yield": 7679.06
+  },
+  "随机轮作": {
+    "name": "随机轮作(6块/年)",
+    "n_trials": 200,
+    "feasible_ratio": 0.005,
+    "mean_profit_5y": 39445.46,
+    "std_profit_5y": 460.27,
+    "mean_avg_yield": 4611.28
+  },
+  "历史最佳": {
+    "name": "历史最佳6块固定种(违反休耕)",
+    "top6": [
+      "A9",
+      "A10",
+      "A7",
+      "A6",
+      "A8",
+      "A5"
+    ],
+    "total_profit_5y": 37809.33,
+    "avg_annual_yield": 4525.67
+  }
+}

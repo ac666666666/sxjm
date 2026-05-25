@@ -1,0 +1,80 @@
+{
+  "pareto": [
+    {
+      "lambda_cvar": 0.0,
+      "E_profit": 40410.120499301134,
+      "CVaR95_loss": -35573.63417587691,
+      "VaR95_loss": -36697.221739194945,
+      "Std_profit": 2156.9718540160047,
+      "prob_meet_threshold": 0.285,
+      "min_profit": 31146.86544835206,
+      "max_profit": 46959.04493394248
+    },
+    {
+      "lambda_cvar": 0.1,
+      "E_profit": 40410.120499301134,
+      "CVaR95_loss": -35573.63417587691,
+      "VaR95_loss": -36697.221739194945,
+      "Std_profit": 2156.9718540160047,
+      "prob_meet_threshold": 0.285,
+      "min_profit": 31146.86544835206,
+      "max_profit": 46959.04493394248
+    },
+    {
+      "lambda_cvar": 0.3,
+      "E_profit": 40404.00461575814,
+      "CVaR95_loss": -35552.812183304966,
+      "VaR95_loss": -36703.05819220818,
+      "Std_profit": 2159.2260508703384,
+      "prob_meet_threshold": 0.2875,
+      "min_profit": 30806.710631491587,
+      "max_profit": 46951.895474164645
+    },
+    {
+      "lambda_cvar": 0.5,
+      "E_profit": 40404.00461575814,
+      "CVaR95_loss": -35552.812183304966,
+      "VaR95_loss": -36703.05819220818,
+      "Std_profit": 2159.2260508703384,
+      "prob_meet_threshold": 0.2875,
+      "min_profit": 30806.710631491587,
+      "max_profit": 46951.895474164645
+    },
+    {
+      "lambda_cvar": 0.8,
+      "E_profit": 40393.422243477675,
+      "CVaR95_loss": -35523.10073172959,
+      "VaR95_loss": -36664.89251003898,
+      "Std_profit": 2168.336985321821,
+      "prob_meet_threshold": 0.2775,
+      "min_profit": 30909.74097442464,
+      "max_profit": 47239.52367745254
+    },
+    {
+      "lambda_cvar": 1.2,
+      "E_profit": 40393.422243477675,
+      "CVaR95_loss": -35523.10073172959,
+      "VaR95_loss": -36664.89251003898,
+      "Std_profit": 2168.336985321821,
+      "prob_meet_threshold": 0.2775,
+      "min_profit": 30909.74097442464,
+      "max_profit": 47239.52367745254
+    }
+  ],
+  "chosen_lambda": 0.3,
+  "chosen_metrics": {
+    "lambda_cvar": 0.3,
+    "E_profit": 40404.00461575814,
+    "CVaR95_loss": -35552.812183304966,
+    "VaR95_loss": -36703.05819220818,
+    "Std_profit": 2159.2260508703384,
+    "prob_meet_threshold": 0.2875,
+    "min_profit": 30806.710631491587,
+    "max_profit": 46951.895474164645
+  },
+  "N_train": 80,
+  "N_eval": 2000,
+  "q1_residual_sigma_mean": 43.327202900891386,
+  "beta_stab": 0.5,
+  "stability_threshold_kg_mu": 4694.473333333333
+}

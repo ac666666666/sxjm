@@ -1,0 +1,40 @@
+{
+  "status": "Optimal",
+  "objective": 43706.13305842812,
+  "total_profit_5y": 43706.13,
+  "annual_yield_kg_per_mu": {
+    "2026": 5032.69,
+    "2027": 4867.66,
+    "2028": 4977.09,
+    "2029": 4842.51,
+    "2030": 5005.08
+  },
+  "avg_annual_yield": 4945.01,
+  "hist_avg_total": 7222.27,
+  "stability_threshold": 4694.47,
+  "stability_ok": true,
+  "blocks_per_year": {
+    "2026": 6,
+    "2027": 6,
+    "2028": 6,
+    "2029": 6,
+    "2030": 6
+  },
+  "rotation_check": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 2,
+    "A4": 4,
+    "A5": 4,
+    "A6": 4,
+    "A7": 4,
+    "A8": 4,
+    "A9": 4,
+    "A10": 4
+  },
+  "params": {
+    "price": 2.8,
+    "base_cost": 800,
+    "gamma": 300
+  }
+}
